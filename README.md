@@ -4,6 +4,7 @@ The META (MachinE TranslAtion) System allows access to the SMT decoder through a
 
 This can be performed in two ways:
 
+* direct API call: e.g. server1.nlp.insight-centre.org:9006/cgi-bin/translate.cgi?json={"text":"text","direction":"en-ga"}
 * adding lines of code into own source code (using the library InsightTranslate.pm)
 * calling the script Translate.pm with a command (sending arguments the library InsightTranslate.pm)
 
